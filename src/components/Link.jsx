@@ -28,7 +28,7 @@ const Link = ({icon}) => {
 			css={css`
 				width: 60px;
 				height: 60px;
-				margin: 0 10px;
+				margin: 10px;
 				border-radius: 50%;
 				display: flex;
 				justify-content: center;
