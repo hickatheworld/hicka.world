@@ -11,9 +11,10 @@ import RGBdle from './res/rgbdle.png';
 function App() {
 	return (
 		<div css={css`
+			position: relative;
 			background-color: #FF9A8B;
 			background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
-			height: 100%;
+			min-height: 100%;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
