@@ -5,7 +5,6 @@ import Header from './components/Header';
 import Link from './components/Link';
 import GitHub from './res/github.png';
 import Twitter from './res/twitter.png';
-import Instagram from './res/instagram.png';
 import Tetris from './res/tetris.png';
 import RGBdle from './res/rgbdle.png';
 function App() {
@@ -34,9 +33,6 @@ function App() {
 				</a>
 				<a href='https://twitter.com/hickatheworld'>
 					<Link icon={Twitter} />
-				</a>
-				<a href='https://instagram.com/hickatheworld'>
-					<Link icon={Instagram} />
 				</a>
 				<a href='https://jstris.jezevec10.com/u/Hickacou'>
 					<Link icon={Tetris} />
