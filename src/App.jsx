@@ -34,7 +34,7 @@ function App() {
 				<a href='https://twitter.com/hickatheworld'>
 					<Link icon={Twitter} />
 				</a>
-				<a href='https://jstris.jezevec10.com/u/Hickacou'>
+				<a href='https://jstris.jezevec10.com/u/hicka'>
 					<Link icon={Tetris} />
 				</a>
 				<a href='https://rgbdle.hicka.world'>
