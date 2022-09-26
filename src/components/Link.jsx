@@ -35,6 +35,7 @@ const Link = ({icon}) => {
 				align-items: center;
 				box-shadow: 0px 5px 10px 5px #00000020;
 				transition: .4s ease;
+				backdrop-filter: blur(50px);
 				&:hover {
 					transition: .2s ease;
 					transform: scale(1.1);
