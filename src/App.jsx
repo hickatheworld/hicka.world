@@ -13,6 +13,7 @@ function App() {
 	const vid = useRef();
 	window.addEventListener('click', () => {
 		vid.current.play();
+		vid.current.muted = false;
 	});
 	return (
 		<div css={css`
@@ -29,6 +30,7 @@ function App() {
 				src={BetterCaulSaulxD}
 				ref={vid}
 				autoPlay
+				muted
 				controls={false}
 				playsInline
 				preload='auto'
