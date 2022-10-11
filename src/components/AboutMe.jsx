@@ -9,9 +9,9 @@ const AboutMe = () => {
 		'an hobbyist developer',
 		'a tetris player',
 		'an Office fan',
-		'한국어를 배우는 사람',
-		'a photography enthusiast',
-		'an EDM and K-pop enjoyer',
+		'한국어를 배우는',
+		'a photographer sometimes',
+		'an EDM and K-pop listener',
 		'the f*cking lizard king'
 	];
 	const [selected, setSelected] = useState(0);
